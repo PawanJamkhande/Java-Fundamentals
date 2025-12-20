@@ -1,11 +1,11 @@
 import java.util.*;
-public class ThreeSum{
+public class ThreeSumTwoPointer{
     public static void main(String[] args){
         int[] arr = {7,-6,3,8,-1,8,-11,0,3};
         int target = 0;
         solution(arr, target, arr.length);
     }
-    //Using two pointer approach
+     //Using two pointer approach (O(n²) time, O(1) space)
         public static void solution(int[] a, int target, int n){
             Arrays.sort(a);
             for(int i=0;i<n;i++){
