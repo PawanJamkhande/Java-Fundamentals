@@ -1,8 +1,10 @@
+//Using Moore's voting algorithm 
 public class MajorityElement{
     public static void main(String[] args){
         int[] arr= {1,4,3,4,5,4,3,4,4,5,4,3,4};
         System.out.println(findMajorityVoting(arr, arr.length));
     }
+    //time complexity O(n) and space complexity O(1)
     public static int findMajorityVoting(int[] arr, int n){
         int candidate = arr[0];
         int count = 1;
