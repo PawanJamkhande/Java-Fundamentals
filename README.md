@@ -6,7 +6,7 @@ A comprehensive repository for mastering fundamental concepts of Java programmin
 
 ## Current Contents in Detail
 
-### `02_Strings`
+### `01_Strings`
 
 This directory contains code related to manipulating and analyzing Java `String` objects.
 
@@ -14,14 +14,21 @@ This directory contains code related to manipulating and analyzing Java `String`
   * `CheckPalindrome.java`: Function to determine if a string is a palindrome.
 
 
-### `03_Arrays`
+### `02_Arrays`
 
 This directory focuses on array-based data structures and algorithms.
 
   * `FindMaxElement.java`: Algorithm to find the largest element in an array.
   * `RotateArray.java`: Implementations for left and right array rotation.
   * `TwoSumProblem.java`: Solution for the classic Two Sum problem using arrays.
+
  
+### `03_Recursion`
+
+This directory introduces the concept of recursion in Java and includes examples to demonstrate recursive problem-solving techniques.
+
+  * `Factorial.java`: A program to calculate the factorial of a number using recursion.
+
 
 ## Getting Started
 
