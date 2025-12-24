@@ -28,7 +28,7 @@ This directory focuses on array-based data structures and algorithms.
 This directory introduces the concept of recursion in Java and includes examples to demonstrate recursive problem-solving techniques.
 
   * `Factorial.java`: A program to calculate the factorial of a number using recursion.
-
+  * `FirstOccurence`: A function that calls itself to traverse the array until the desired element is found or the end of the array is reached.
 
 ## Getting Started
 
