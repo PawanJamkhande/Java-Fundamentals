@@ -1,3 +1,4 @@
+//Time complexity of this program is O(n2) space complexity is O(n)
 public class Transpose {
 
     public static void main(String[] args){
@@ -23,7 +24,7 @@ public class Transpose {
      transpose(arr);
      reverse(arr);
     }
-
+//Step 1 -> take transpose of the array by swapping it
         public static void transpose(int[][] arr) {
             for(int i = 0; i < arr.length; i++) {
                 for(int j = 0; j<i;j++) {
@@ -32,7 +33,7 @@ public class Transpose {
                     arr[j][i] = temp;
                 }
             }
-
+//If you want to print the transpose of array you can uncomment this print line
             for(int i = 0; i < arr.length; i++) {
                 for(int j = 0; j < arr[i].length; j++) {
                     // System.out.print(arr[i][j] + " ");

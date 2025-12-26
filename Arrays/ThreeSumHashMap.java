@@ -2,8 +2,8 @@ import java.util.*;
 
 public class ThreeSumHashMap {
     public static void main(String[] args) {
-        int[] arr = {999,1,0,0,0,1002,-1,-1,-2,1000};
-        int target = 1000;
+        int[] arr = {7, -6, 3, 8, -1, 8, -11, 0, 3};
+        int target = 0;
         solution(arr, target, arr.length);
     }
 
