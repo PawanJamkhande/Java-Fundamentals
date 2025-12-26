@@ -16,10 +16,10 @@ public class Transpose {
     //    System.out.println(arr[3][4]);
     //    System.out.println(arr[4][3]);
     //    System.out.println(arr[0][0]);
-    int[][] arr = {{1, 2, 3,10},
-     {4, 5, 6,11}, 
-     {7, 8, 9,12},
-    {13,14,15,16}};
+    int[][] arr = {{1, 2, 3, 10},
+     {4, 5, 6, 11}, 
+     {7, 8, 9, 12},
+    {13, 14, 15, 16}};
      transpose(arr);
      reverse(arr);
     }
@@ -35,11 +35,12 @@ public class Transpose {
 
             for(int i = 0; i < arr.length; i++) {
                 for(int j = 0; j < arr[i].length; j++) {
-                    System.out.print(arr[i][j] + " ");
+                    // System.out.print(arr[i][j] + " ");
                 }
-                System.out.println();
+                // System.out.println();
             }
         }
+//Rotate it by 90 degree into clockwise
 
         public static void reverse(int[][] arr){
             
