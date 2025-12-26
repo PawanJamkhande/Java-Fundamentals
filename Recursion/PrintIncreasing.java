@@ -1,11 +1,11 @@
 public class PrintIncreasing{
     public static void main(String[] args){
-        PrintIncreasing(7);
+        PrintIncreasing1(7);
     }
-    public static void PrintIncreasing(int N){
+    public static void PrintIncreasing1(int N){
         if(N==0)
             return;
-        PrintIncreasing(N-1);
+        PrintIncreasing1(N-1);
         System.out.println(N);
     }
 }
