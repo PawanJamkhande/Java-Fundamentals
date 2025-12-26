@@ -22,5 +22,6 @@ class Subarray {
                 System.out.println("]");
             }
         }
+        sc.close();
 }
 }
