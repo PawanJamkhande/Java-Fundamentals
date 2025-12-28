@@ -13,9 +13,14 @@ public class ArraySquares {
         }
         
         System.out.println("Squares:");
+        System.out.print("[");
         for(int i = 0; i < n; i++) {
-            System.out.println("[" + arr[i] * arr[i] + "]");
+            System.out.print(arr[i] * arr[i]);
+            if(i < n - 1) {
+                System.out.print(",");
+            }
         }
+        System.out.print("]");
         
         sc.close();
     }
