@@ -14,7 +14,7 @@ public class SearchInSorted {
         System.out.println(ans);
         sc.close();
     }
-    public static int binarySearch(int[] arr, int target, int left, int right){
+    public static int binarySearch(int[] arr, int left, int right, int target){
         while(left<=right){
             int mid = (left+right)/2;
             if(arr[mid]==target){
