@@ -7,6 +7,7 @@ public class SearchInSorted {
         Scanner sc = new Scanner(System.in);
         int target = sc.nextInt();
         int minidx = findMin(arr);
+        // if(target >= arr[0] && target <= arr[minidx - 1])
         int ans = binarySearch(arr,0, minidx -1, target);
         if(ans==-1){
             ans = binarySearch(arr, minidx, arr.length-1, target);
