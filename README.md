@@ -1,7 +1,7 @@
 # Java-Fundamentals
 
 
-A comprehensive repository for mastering fundamental concepts of Java programming, core data structures, and essential algorithms. This project aims to provide clean, well-documented, and executable code examples for learning and reference.
+A comprehensive repository for mastering fundamental concepts of Java programming, core data structures, and essential algorithms. This project aims to provide clean, well-documented, and executable c[...]
 
 
 ## Current Contents in Detail
@@ -29,6 +29,17 @@ This directory introduces the concept of recursion in Java and includes examples
 
   * `Factorial.java`: A program to calculate the factorial of a number using recursion.
   * `FirstOccurence`: A function that calls itself to traverse the array until the desired element is found or the end of the array is reached.
+
+
+### `04_LinkedList`
+
+This directory covers the basics of linked lists, an essential data structure in computer science. It includes both singly and doubly linked list implementations with common operations.
+
+  * `SinglyLinkedList.java`: A basic implementation of a singly linked list along with insertion and deletion operations.
+  * `DoublyLinkedList.java`: Implementation of a doubly linked list with forward and backward traversal.
+  * `MergeTwoSortedLists.java`: A function to merge two sorted linked lists into one.
+  * `DetectCycleInLinkedList.java`: An algorithm to check whether a linked list contains a cycle.
+  
 
 ## Getting Started
 
