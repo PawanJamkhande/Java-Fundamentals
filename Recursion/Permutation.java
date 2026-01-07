@@ -19,7 +19,5 @@ public class Permutation {
                 selected[i]=false;
             }
         }
-
     }
-    
 }
