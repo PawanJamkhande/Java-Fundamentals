@@ -8,7 +8,7 @@ A comprehensive repository for mastering fundamental concepts of Java programmin
 
 ### `01_Strings`
 
-This directory contains code related to manipulating and analyzing Java `String` objects.
+A string is a sequence of characters. In Java, strings are objects of the String class and are immutable, meaning once created, their content cannot be changed. Strings can be manipulated using various built-in methods like charAt(), substring(), length(), etc.
 
   * `ReverseString.java`: Implementation of string reversal using various techniques.
   * `CheckPalindrome.java`: Function to determine if a string is a palindrome.
@@ -16,7 +16,7 @@ This directory contains code related to manipulating and analyzing Java `String`
 
 ### `02_Arrays`
 
-This directory focuses on array-based data structures and algorithms.
+An array is a collection of elements of the same data type stored in contiguous memory locations. Each element is accessed by its index (position), starting from 0. Arrays have a fixed size determined at creation and allow fast random access to any element in O(1) time.
 
   * `FindMaxElement.java`: Algorithm to find the largest element in an array.
   * `RotateArray.java`: Implementations for left and right array rotation.
@@ -25,10 +25,23 @@ This directory focuses on array-based data structures and algorithms.
  
 ### `03_Recursion`
 
-This directory introduces the concept of recursion in Java and includes examples to demonstrate recursive problem-solving techniques.
+Recursion is a programming technique where a function calls itself directly or indirectly to solve a problem. A recursive function must have:
+
+Base case: A condition that stops the recursion
+Recursive case: The function calling itself with modified parameters
 
   * `Factorial.java`: A program to calculate the factorial of a number using recursion.
   * `FirstOccurence`: A function that calls itself to traverse the array until the desired element is found or the end of the array is reached.
+
+### `04_Linked_list`
+
+A linked list is a linear data structure where elements (called nodes) are stored in non-contiguous memory locations. Each node contains:
+
+Data: The actual value stored in the node
+Next pointer: A reference to the next node in the sequence
+
+  * `Addatbeginning.java`: Implementation to add a node at the beginning of a linked list.
+  * `RemoveVowels.java`: A linked list traversal example demonstrating node iteration.
 
 ## Getting Started
 

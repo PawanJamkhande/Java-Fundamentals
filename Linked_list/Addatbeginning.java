@@ -29,7 +29,7 @@ public class Addatbeginning {
             System.out.print(temp.data + " ");
             temp = temp.next;
         }
-        System.out.println(); // newline after output
+        System.out.println(); 
     }
 
     public static Node addFirst(Node head, int val){
