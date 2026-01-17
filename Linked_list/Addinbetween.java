@@ -21,7 +21,7 @@ public class Addinbetween {
         n4.next=n5;
 
         Node head = n1;
-        head = addInBetween(head, 3, 60);
+        head = addInBetween(head, 6, 60);
         Node temp = head;
         while(temp!=null){
             System.out.print(temp.data + " ");
@@ -31,21 +31,26 @@ public class Addinbetween {
     }
 
     public static Node addInBetween(Node head,int index, int val){
+        //if there is no node present in linked list i.e. inx = 0 adding at beginning 
         if(index == 0){
             Node n= new Node(val);
             n.next=head;
             return n;
         }
+        
         Node temp = head;
+        
         for (int i = 0; i < index - 1; i++) {
         temp = temp.next;
         }
+        
 
         Node n = new Node(val);
         n.next = temp.next;
         temp.next = n;
 
         return head;
+        
 
 
         }
