@@ -1,7 +1,7 @@
 # Java-Fundamentals
 
 
-A comprehensive repository for mastering fundamental concepts of Java programming, core data structures, and essential algorithms. This project aims to provide clean, well-documented, and executable code examples for learning and reference.
+A comprehensive repository for mastering fundamental concepts of Java programming, core data structures, and essential algorithms. This project aims to provide clean, well-documented, and executable DSA programs.
 
 
 ## Current Contents in Detail
@@ -89,4 +89,4 @@ This project is licensed under the MIT License - see the `LICENSE` file for deta
 
 
 
-**Happy Coding\!**
+**Happy Coding**
