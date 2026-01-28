@@ -22,13 +22,8 @@ public class MidofLL {
 
         Node head = n1;
         head = findMid(head);
-        // Node temp = head;
         System.out.print(head.data);
-        // while(temp!=null){
-        //     System.out.print(temp.data + " ");
-        //     temp = temp.next;
-        // }
-        // System.out.println();
+        
     }
     public static Node findMid(Node head){
         if(head == null){
