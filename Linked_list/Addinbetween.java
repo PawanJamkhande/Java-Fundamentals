@@ -21,13 +21,13 @@ public class Addinbetween {
         n4.next=n5;
 
         Node head = n1;
-        head = addInBetween(head, 6, 60);
+        head = addInBetween(head, 4, 60);
         Node temp = head;
         while(temp!=null){
-            System.out.print(temp.data + " ");
+            System.out.print(temp.data + " ->");
             temp = temp.next;
         }
-        System.out.println();
+        System.out.println("Null");
     }
 
     public static Node addInBetween(Node head,int index, int val){
@@ -39,15 +39,17 @@ public class Addinbetween {
         }
         
         Node temp = head;
-        
-        for (int i = 0; i < index - 1; i++) {
+        for(int i=1;i<=index;i++){
+        while (temp.next!=null) {
         temp = temp.next;
         }
-        
+    }
 
-        Node n = new Node(val);
-        n.next = temp.next;
-        temp.next = n;
+        Node newNode = new Node(val);
+        
+        temp.next = newNode;
+        newNode.next= temp.next.next;
+        
 
         return head;
         

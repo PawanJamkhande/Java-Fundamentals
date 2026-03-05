@@ -2,7 +2,7 @@ import java.util.*;
 public class ThreeSumTwoPointer{
     public static void main(String[] args){
         int[] arr = {999,1,0,0,0,1002,-1,-1,-2,1000};
-        int target = 1000;
+        int target = 0;
         solution(arr, target, arr.length);
     }
     //Using two pointer approach (O(n²) time, O(1) space)

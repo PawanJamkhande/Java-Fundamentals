@@ -1,4 +1,4 @@
-package org.string;
+package Strings;
 public class RemoveVowels {
 
     public static void main(String[] args) {
