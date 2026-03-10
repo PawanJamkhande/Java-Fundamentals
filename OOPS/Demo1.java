@@ -1,10 +1,17 @@
 package OOPS;
 /* 
+class to class = extends
+class to interface = implement
+interface to interface = extends
 we cannot create object of interface 
 interface is used to create multiple inheritance in java
 you can extend more than 1 interface 
-Interface is 
-
+Interface specofies the set of abstract methods 
+Abstraction: Interfaces hide implementation details and expose only method signatures. 
+Multiple Inheritance: A class can implement multiple interfaces, enabling multiple inheritance of type. 
+Default and Static Methods: Since Java 8, interfaces can include default methods (with implementation) and static methods. 
+Private Methods: Java 9 introduced private and private static methods for internal logic within interfaces. 
+Constants: All fields in an interface are public, static, and final by default. 
  */
 
 interface i1{
