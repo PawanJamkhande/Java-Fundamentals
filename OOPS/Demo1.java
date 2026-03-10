@@ -57,3 +57,28 @@ public class Demo1 {
 	}
 
 }
+
+// interface Animal {
+//     void makeSound(); // Abstract method
+//     default void sleep() { // Default method
+//         System.out.println("Animal is sleeping");
+//     }
+//     static void breathe() { // Static method
+//         System.out.println("Animal is breathing");
+//     }
+// }
+
+// class Dog implements Animal {
+//     public void makeSound() {
+//         System.out.println("Bark");
+//     }
+// }
+
+// public class Main {
+//     public static void main(String[] args) {
+//         Dog dog = new Dog();
+//         dog.makeSound(); // Output: Bark
+//         dog.sleep();     // Output: Animal is sleeping
+//         Animal.breathe(); // Output: Animal is breathing
+//     }
+// }   
