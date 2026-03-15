@@ -21,3 +21,24 @@ public class Demo4 {
 
 
 }
+
+
+
+// public class Demo1 {
+
+// 	//String name="jhon","sam";//not allowed
+// 	String name;
+	
+// 	public void disp(String name) {
+// 		System.out.println("Name:"+name);
+// 	}
+// 	public static void main(String[] args) {
+	
+// 		Demo1 d=new Demo1();
+// 		d.disp("sam");
+// 		d.disp("jhon");
+
+
+// 	}
+
+// }
