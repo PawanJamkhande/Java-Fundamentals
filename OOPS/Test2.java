@@ -19,14 +19,14 @@ package OOPS;
 public class Test2 {
 
 	public static void main(String[] args) {
-		/*SBI s1=new SBI();
+		SBI s1=new SBI();
 		s1.ROI(9.10);
 		BOB b1=new BOB();
-		b1.interest(8.5);*/
-		BOI bi=new BOI();
-		bi.ROI(10.60);
-		bi.interest(8.9);
-		bi.ROILOW(7.5);
+		b1.interest(8.5);
+		// BOI bi=new BOI();
+		// bi.ROI(10.60);
+		// bi.interest(8.9);
+		// bi.ROILOW(7.5);
 	}
 
 }
