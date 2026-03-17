@@ -98,35 +98,66 @@ package OOPS;
 // }
 
 
-class Vehicle{
-	void speed(int s) {
-		System.out.println("Vehicle speed:"+s);
-	}
+// class Vehicle{
+// 	void speed(int s) {
+// 		System.out.println("Vehicle speed:"+s);
+// 	}
+// }
+// class Maruti extends Vehicle{
+// 	void speed(int s) {
+// 		super.speed(120);
+// 		System.out.println("Maruti speed:"+s);
+// 	}
+// }
+// class Bus extends Maruti{
+// 	void speed(int s) {
+// 		super.speed(100);
+// 		System.out.println("Bus speed:"+s);
+// 	}
+// }
+// class ByCycle extends Bus{
+// 	void speed(int s) {
+// 		super.speed(90);
+// 		System.out.println("ByCycle speed:"+s);
+// 	}
+// }
+// public class Demo5 {
+
+// 	public static void main(String[] args) {
+// 		ByCycle b1=new ByCycle();
+// 		b1.speed(85);
+		
+// 	}
+
+// }
+
+
+class Company{
+	String cName="Delloitte";
 }
-class Maruti extends Vehicle{
-	void speed(int s) {
-		super.speed(120);
-		System.out.println("Maruti speed:"+s);
-	}
+class Employees extends Company{
+	String empName="Jhon smith";
 }
-class Bus extends Maruti{
-	void speed(int s) {
-		super.speed(100);
-		System.out.println("Bus speed:"+s);
-	}
+class Departments extends Employees{
+	String deptName="HR";
 }
-class ByCycle extends Bus{
-	void speed(int s) {
-		super.speed(90);
-		System.out.println("ByCycle speed:"+s);
-	}
+
+class Admin extends Departments{
+	int noofHead=10;
+}
+class Info extends Company{
+	String email="Delottie@gmail.com";
+	String address="Pawai Mumbai";
 }
 public class Demo6 {
 
 	public static void main(String[] args) {
-		ByCycle b1=new ByCycle();
-		b1.speed(85);
+		Admin a1=new Admin();
+		System.out.println(a1.cName+" "+a1.deptName+" "+a1.empName+" "+a1.noofHead);
 		
+		Info i1=new Info();
+		System.out.println(i1.address+" "+i1.email);
+
 	}
 
 }
