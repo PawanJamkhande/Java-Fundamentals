@@ -132,31 +132,55 @@ package OOPS;
 // }
 
 
-class Company{
-	String cName="Delloitte";
-}
-class Employees extends Company{
-	String empName="Jhon smith";
-}
-class Departments extends Employees{
-	String deptName="HR";
-}
+// class Company{
+// 	String cName="Delloitte";
+// }
+// class Employees extends Company{
+// 	String empName="Jhon smith";
+// }
+// class Departments extends Employees{
+// 	String deptName="HR";
+// }
 
-class Admin extends Departments{
-	int noofHead=10;
+// class Admin extends Departments{
+// 	int noofHead=10;
+// }
+// class Info extends Company{
+// 	String email="Delottie@gmail.com";
+// 	String address="Pawai Mumbai";
+// }
+// public class Demo6 {
+
+// 	public static void main(String[] args) {
+// 		Admin a1=new Admin();
+// 		System.out.println(a1.cName+" "+a1.deptName+" "+a1.empName+" "+a1.noofHead);
+		
+// 		Info i1=new Info();
+// 		System.out.println(i1.address+" "+i1.email);
+
+// 	}
+
+// }
+
+
+class Calci{
+	void add(int a,int b) {
+		System.out.println(a+b);
+	}
+	void add(int a,int b,int c) {
+		System.out.println(a+b+c);
+	}
+	void add(int a, int e,String b, int c, int d) {
+		System.out.println(a+e+b+c+" "+d);
+	}
 }
-class Info extends Company{
-	String email="Delottie@gmail.com";
-	String address="Pawai Mumbai";
-}
-public class Demo6 {
+public class Demo7 {
 
 	public static void main(String[] args) {
-		Admin a1=new Admin();
-		System.out.println(a1.cName+" "+a1.deptName+" "+a1.empName+" "+a1.noofHead);
-		
-		Info i1=new Info();
-		System.out.println(i1.address+" "+i1.email);
+		Calci c1=new Calci();;
+		c1.add(10, 20);
+		c1.add(10, 20, 30);
+		c1.add(12, 30 , " ajay ",30 ,40);
 
 	}
 
