@@ -163,24 +163,55 @@ package OOPS;
 // }
 
 
-class Calci{
-	void add(int a,int b) {
-		System.out.println(a+b);
+// class Calci{
+// 	void add(int a,int b) {
+// 		System.out.println(a+b);
+// 	}
+// 	void add(int a,int b,int c) {
+// 		System.out.println(a+b+c);
+// 	}
+// 	void add(int a, int e,String b, int c, int d) {
+// 		System.out.println(a+e+b+c+" "+d);
+// 	}
+// }
+// public class Demo7 {
+
+// 	public static void main(String[] args) {
+// 		Calci c1=new Calci();;
+// 		c1.add(10, 20);
+// 		c1.add(10, 20, 30);
+// 		c1.add(12, 30 , " ajay ",30 ,40);
+
+// 	}
+
+// }
+
+
+class Person{
+	void walk() {
+		System.out.println("Person walking..");
 	}
-	void add(int a,int b,int c) {
-		System.out.println(a+b+c);
-	}
-	void add(int a, int e,String b, int c, int d) {
-		System.out.println(a+e+b+c+" "+d);
+	
+}
+class AnimalInfo extends Person{
+	void walk() {
+		System.out.println("Animal walking..");
 	}
 }
-public class Demo7 {
+class Bird extends Person{
+	void walk() {
+		System.out.println("Bird walking..");
+	}
+}
+public class Demo8 {
 
 	public static void main(String[] args) {
-		Calci c1=new Calci();;
-		c1.add(10, 20);
-		c1.add(10, 20, 30);
-		c1.add(12, 30 , " ajay ",30 ,40);
+		//Dynamic  method dispatch
+		Person p1,p2;
+		 p1=new AnimalInfo();
+		p2=new  Bird();
+		p1.walk();
+		p2.walk();
 
 	}
 
