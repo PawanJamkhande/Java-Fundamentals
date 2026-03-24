@@ -12,7 +12,7 @@ Abstract class can contains static data
  */
 abstract class  A{
 	abstract void ma() ;
-	
+
 }
 abstract class B extends A{
 	abstract void mb() ;
