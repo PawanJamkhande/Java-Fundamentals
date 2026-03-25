@@ -9,7 +9,7 @@ class Menu {
     int qty;
     Scanner sc = new Scanner(System.in);
 
-    void disp(){
+    void display(){
         System.out.println("Enter Menu Type: ");
         MenuType = sc.next();
         System.out.println("Enter Menu Id: ");
@@ -24,7 +24,7 @@ class Menu {
         System.out.println(MenuId+" "+MenuName+" "+price+" "+qty);
 
     }
-    void bill(){
+    void totalbill(){
         int totalBill=qty*price;
         System.out.println("Total Bill is: "+totalBill);
     }
@@ -32,7 +32,7 @@ class Menu {
 public class demo{
     public static void main(String[] args){
         Menu m = new Menu();
-        m.disp();
-        m.bill();
+        m.display();
+        m.totalbill();
     }
 }
