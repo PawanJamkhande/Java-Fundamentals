@@ -22,17 +22,17 @@ ex- Integer I1 = new Integer(); */
 // }
 /*
 Q) Take one class student and display name = sam and age = 18 */
-class Student{
-    static void display(String sname, int age){
-        System.out.println(sname+" "+age);
-    }
-    public static void main(String[] args){
-        int age = 18;
-        String name = "Sam";
+// class Student{
+    // static void display(String sname, int age){
+    //     System.out.println(sname+" "+age);
+    // }
+    // public static void main(String[] args){
+    //     int age = 18;
+    //     String name = "Sam";
 
-        System.out.println("The name is: "+name+ " & age is: "+age);
-        Student s= new Student();
-        s.display("akash",18);
-    }
-    }
+    //     System.out.println("The name is: "+name+ " & age is: "+age);
+    //     Student s= new Student();
+    //     s.display("akash",18);
+    // }
+    // }
 /* function has a return type but method has no return type */
