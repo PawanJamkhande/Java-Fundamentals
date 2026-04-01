@@ -1,7 +1,7 @@
 package OOPS.Polymorphism;
 
 //Compile-time Polymorphism ( Method Overloading )
-class Calculator {
+public class Calculator {
     // Calculate area of a rectangle
     double calculateArea(double length, double width) {
         return length * width;
@@ -13,7 +13,7 @@ class Calculator {
     }
 }
 
-public class Main {
+class Main {
     public static void main(String[] args) {
         Calculator calc = new Calculator();
         double rectangleArea = calc.calculateArea(5.0, 3.0);
