@@ -2,7 +2,7 @@ package Training;
 import java.util.*;
 
 import javax.sound.sampled.SourceDataLine;
-public class Patter{
+public class Pattern{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter line of pyramid");
