@@ -20,7 +20,9 @@ delete(): deletes the character between index.
 deleteAtChar(): it deletes specific character at index.
 reverse(): it display the reverse the string.
 setCharAt(): It update specific character at index.
-compareTo(): It compares it lexigraphically.
+compareTo(): It compares it lexigraphically. (A to Z = 67 - 90 || a to z = 97 - 122)
+
+
   * `ReverseString.java`: Implementation of string reversal using various techniques.
   * `CheckPalindrome.java`: Function to determine if a string is a palindrome.
 
