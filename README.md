@@ -7,9 +7,20 @@ A comprehensive repository for mastering fundamental concepts of Java programmin
 ## Current Contents in Detail
 
 ### `01_Strings`
-
-A string is a sequence of characters. In Java, strings are objects of the String class and are immutable, meaning once created, their content cannot be changed. Strings can be manipulated using various built-in methods like charAt(), substring(), length(), etc.
-
+String is a class which is used to store text. If both strings are equal they are using same memory.
+StringBuilder is the class which is used to store mutable strings that can be changed.
+A string is a sequence of characters. In Java, strings are objects of the String class and are immutable, meaning once created, their content cannot be changed. Strings can be manipulated using various built-in methods like charAt(): read the character from specific index.
+subString(): extract the part of string.
+toString(): convert StringBuilder to string.
+length(): Return the size of string.
+append(): We can add data at the end.
+insert(): we can add data at specific position.
+replace(): it repaces the character between indexes.
+delete(): deletes the character between index.
+deleteAtChar(): it deletes specific character at index.
+reverse(): it display the reverse the string.
+setCharAt(): It update specific character at index.
+compareTo(): It compares it lexigraphically.
   * `ReverseString.java`: Implementation of string reversal using various techniques.
   * `CheckPalindrome.java`: Function to determine if a string is a palindrome.
 
