@@ -1,7 +1,7 @@
 package Training;
 
 public class slidingWindow{
-
+//max sum subarray of size k
     public static int slidingWindow1(int[] arr,int k){
         int sum = 0;
         for (int i = 0; i < k; i++) sum += arr[i];
@@ -13,8 +13,21 @@ public class slidingWindow{
         }
         return maxSum;
     }
+    public static int kadane(int[] arr){
+        int max = arr[0];
+        int curr = arr[0];
+
+        for (int i = 1; i < arr.length; i++) {
+            curr = Math.max(arr[i], curr + arr[i]);
+            max = Math.max(max, curr);
+        }
+        return max;
+    }
     public static void main(String[] args){
         int[] arr={1,2,3,4,5,6,7};
+        System.out.println("Max sum of subarray of size k");
         System.out.println(slidingWindow1(arr,3));
+        System.out.println("Kadane's algorithm to find max subarray sum");
+        System.out.println(kadane(arr));
     }
 }
