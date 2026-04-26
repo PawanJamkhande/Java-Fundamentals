@@ -63,8 +63,7 @@ import java.util.*;
                 end--;
             }
         }
-        public static void main(String args[]){
-
+        public static void main(String[] args){
 
             Scanner sc = new Scanner(System.in);
 
@@ -79,11 +78,17 @@ import java.util.*;
             int rotationNum = sc.nextInt();
 
             rotationNum = rotationNum%lenOfArr;
+            
+            //left shift
+            // reverseArray(0, rotationNum-1, arr);
+            // reverseArray(rotationNum, lenOfArr-1, arr);
+            // reverseArray(0, lenOfArr-1, arr);
 
+
+            //Right shift
+            reverseArray(0, lenOfArr-1, arr);
             reverseArray(0, rotationNum-1, arr);
             reverseArray(rotationNum, lenOfArr-1, arr);
-            reverseArray(0, lenOfArr-1, arr);
-
 
             for(int i=0; i<lenOfArr; i++){
                 System.out.print(arr[i]+" ");
