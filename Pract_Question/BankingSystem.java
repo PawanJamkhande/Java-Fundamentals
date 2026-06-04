@@ -1,4 +1,4 @@
-package OOPS.Exception;
+package Pract_Question;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -85,6 +85,9 @@ public class BankingSystem {
                 if(accounts[i].accountNumber == accNo ){
                     System.out.println("Enter the amount to be deposited");
                     int dipmoney = sc.nextInt();
+                    if(dipmoney<=0){
+                        throw new Exception("Invalid Amount please try again");
+                    }
                     accounts[i].balance += dipmoney;
                     System.out.println("Amount deposited successfully");
                 }else {
@@ -95,7 +98,7 @@ public class BankingSystem {
             }
         }
     }catch(Exception e){
-        System.out.println("Unexpected error occured"+ e.getMessage());
+        System.out.println("Unexpected error occured "+ e.getMessage());
     }
     }
     

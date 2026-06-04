@@ -1,0 +1,9 @@
+package OOPS.Exception;
+
+
+public class InsufficientBalance extends Exception {
+
+	InsufficientBalance(String msg){
+		super(msg);
+	}
+}
