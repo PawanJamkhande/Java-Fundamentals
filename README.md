@@ -348,6 +348,71 @@ Throw	Throws
 5. You cannot throw multiple exception	5. You can declare multiple exceptions
 
 
+
+COLLECTIONS:
+ - Collection is nothing but group of object.
+ - Collection is a framework that provide the set of interfaces and classes which is used to store, retrieve and manipulate the data.
+ - The objects dynamically grow and shrink.
+
+
+
+
+							      Iterable	                                                                       [Map]										 |										| ' 
+  							     Collections									| '-> (Hash table)
+								 |										| '-> (Linked Hash Map) 
+  	 		  _______________________________________|_________________________________________________   				| '-> (Hash Map)
+			 |					 |						   |				|
+	      				[List]				      [Queue]	                                         [Set]				|->[Sorted Map]
+			'				      | '					         | '					'
+			'-> (Array list)		      | '-> (Priority Queue)			         | '-> (Hash set)			'->(Tree map)
+			'-> (Linked List)--------\            | 					         | '-> (Linked Hash set)
+			'-> (Vector)              \-----------|-> [Dequeue]				         |
+		       		^			             '					         |-> [Sorted set]
+		       		|				     '-> (Array Dequeue)			       '
+		    	     (Stack)										       '-> (Tree set)
+	
+
+
+																_______________________________________
+																|                                     |
+																|	[] - Interface that means     	  | 	
+																|	     object cannot be created 	  |
+																|				      				  |
+																|	() - Class that means object	  |				
+																|	     can be created           	  |
+																|                                     |
+																|      |-> - Extends 		      	  |
+																|                                     |
+																|      '-> - Implements               |
+																|-------------------------------------|
+
+
+
+ArrayList
+ - ArrayList is implemented from list interface. It stores the element in dynamic way and it will automatically grow and shrink according to data.
+ - It maintains the insertion order.
+ - Allows duplicate as well as null values.
+ - We can retrack data easily using index numbers.
+ - Stores object only. 
+
+2. LinkedList
+ - Linked list is implemented from list and Dequeue interface. It stores the data as a node, each node contains data and reference to the next node.
+
+
+
+
+                           .add();	                                   .offer();
+ 1. Throws exception if elements cannot be inserted.	 1. Returns false instead of throwing an exception.
+
+
+3. Vector
+ - Vector is legacy class and it was introduced in Java 1.2 version.
+ - It stores the element in dynamic array and automatically grows when needed.
+ - Vector is implemented by list interface.
+ - Vector is thread safe and it also stores null and duplicate value.
+
+
+
 ### `01_Strings`
 String is a class which is used to store text. If both strings are equal they are using same memory.
 StringBuilder is the class which is used to store mutable strings that can be changed.
