@@ -11,6 +11,13 @@ public class Test1 {
     // set method to update the value that has been already entered in the array a1.set(index,value)
     // remove method used to remove a perticular value in the arraylist a1.remove(index)
     // if we want to clear the entire list we use clear method a1.clear()
+    /* Arraylist implemented from list interface its store the element in dynamic way and it will automatically grow and shrink 
+    according to data
+    it maintain the insertion order
+    allow the duplicate values as well as null values 
+    we can retrieve data fastly using index number
+    stores objects only 
+    ArrayList is not thread safe*/
     
 
 		a1.add(10);
