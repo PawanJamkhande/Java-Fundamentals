@@ -357,19 +357,20 @@ COLLECTIONS:
 
 
 
-							      Iterable	                                                                       [Map]										 |										| ' 
-  							     Collections									| '-> (Hash table)
-								 |										| '-> (Linked Hash Map) 
-  	 		  _______________________________________|_________________________________________________   				| '-> (Hash Map)
-			 |					 |						   |				|
-	      				[List]				      [Queue]	                                         [Set]				|->[Sorted Map]
-			'				      | '					         | '					'
-			'-> (Array list)		      | '-> (Priority Queue)			         | '-> (Hash set)			'->(Tree map)
-			'-> (Linked List)--------\            | 					         | '-> (Linked Hash set)
-			'-> (Vector)              \-----------|-> [Dequeue]				         |
-		       		^			             '					         |-> [Sorted set]
-		       		|				     '-> (Array Dequeue)			       '
-		    	     (Stack)										       '-> (Tree set)
+							      				Iterable	                                            				[Map]
+				 		|															| 
+  							     				Collections																|-> (Hash table)
+								 					 |																	|-> (Linked Hash Map) 
+  	 		  _______________________________________|_________________________________________________   				|-> (Hash Map)
+			 |					 					 |						   						   |				|
+	      	[List]				      				[Queue]	                                         [Set]				|->[Sorted Map]
+			'				      					| '					         					  | '					'				
+			'-> (Array list)		      			| '-> (Priority Queue)			         		  | '-> (Hash set)		'->(Tree map)
+			'-> (Linked List)--------\            	| 					         					  | '-> (Linked Hash set)
+			'-> (Vector)              \-------------|-> [Dequeue]				         			  |
+		       		^			             			'					         				  |-> [Sorted set]
+		       		|				     				'-> (Array Dequeue)			       					'
+		    	(Stack)										       						   					'-> (Tree set)
 	
 
 
