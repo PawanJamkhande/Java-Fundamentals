@@ -5,12 +5,19 @@ import java.util.ArrayList;
 public class Test1 {
  public static void main(String[] args){
     ArrayList<Integer> a1=new ArrayList<Integer>();
-
+    
     //add method it add the value a1.add(value)
     //addFirst and addLast adds the element at the first and last of the list
     // set method to update the value that has been already entered in the array a1.set(index,value)
     // remove method used to remove a perticular value in the arraylist a1.remove(index)
     // if we want to clear the entire list we use clear method a1.clear()
+    /*
+    set is a interface 
+    unorder collection of the data
+    not allowed duplicate data
+    ex- HashSet: data is not maintained | it allows one null value.
+    LinkedHashSet - maintains the insertion order
+    treeset - maintains the sorted order | Null is not allowed in treeset */
     /* Arraylist implemented from list interface its store the element in dynamic way and it will automatically grow and shrink 
     according to data
     it maintain the insertion order
@@ -18,6 +25,8 @@ public class Test1 {
     we can retrieve data fastly using index number
     stores objects only 
     ArrayList is not thread safe*/
+
+
     
 
 		a1.add(10);

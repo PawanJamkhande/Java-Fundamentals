@@ -358,7 +358,7 @@ COLLECTIONS:
 
 
 							      				Iterable	                                            				[Map]
-				 		|															| 
+				 									 |																	| 
   							     				Collections																|-> (Hash table)
 								 					 |																	|-> (Linked Hash Map) 
   	 		  _______________________________________|_________________________________________________   				|-> (Hash Map)
@@ -415,6 +415,7 @@ ArrayList
 
 
 ### `01_Strings`
+
 String is a class which is used to store text. If both strings are equal they are using same memory.
 StringBuilder is the class which is used to store mutable strings that can be changed.
 A string is a sequence of characters. In Java, strings are objects of the String class and are immutable, meaning once created, their content cannot be changed. Strings can be manipulated using various built-in methods like charAt(): read the character from specific index.
