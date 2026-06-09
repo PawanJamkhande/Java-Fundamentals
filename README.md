@@ -412,7 +412,18 @@ ArrayList
  - Vector is implemented by list interface.
  - Vector is thread safe and it also stores null and duplicate value.
 
+HashMap:
+1. HashMap allows one null key.
+2. it is introduced in java 1.2
+3. It uses iterator 
+4. It is non synchronised, that allows one null key and multiple null values making it faster but not thread safe
 
+HashTable:
+1. Hashtable is synchronized , it does not allow the null value 
+2. It is introduced in java 1.0 only
+3. it is thread safe bcz of synchronization
+
+Comparable:
 
 ### `01_Strings`
 
