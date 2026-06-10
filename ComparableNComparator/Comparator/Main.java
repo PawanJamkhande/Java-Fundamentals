@@ -15,7 +15,7 @@ public class Main {
 		movies.add(new Movie(30,"Dhurandhar",9.5));
 		movies.add(new Movie(35,"Peddi",7.5));
 		movies.add(new Movie(56,"RHTDM",6.5));
-	System.out.println("Before sorting");
+		System.out.println("Before sorting");
 		
 		for(Movie m:movies) {
 			System.out.println(m);
