@@ -476,8 +476,38 @@ Next pointer: A reference to the next node in the sequence
 
   * `Addatbeginning.java`: Implementation to add a node at the beginning of a linked list.
   * `RemoveVowels.java`: A linked list traversal example demonstrating node iteration.
-
+============================================================================================================================================================
 ## Getting Started
+
+### `Java 8 major release of Java on 18th march 2014`
+Java 8 March '14
+Functional interface 4-Types !! (SAM) Single Abstraction Method.
+@FunctionalInterface - Syntax
+
+Lambda Expression
+Stream api- Terminal , Sequential!
+
+
+argument() -> Function
+
+
+Java 8 is the major release version of java.
+It is released on 18th march '14
+It is a Functional Programming language
+
+Functional Interface -
+Functional Interface is an Interface which contain only one abstract method 
+it is also called as SAM(single abstract method)
+It is denoted as @FunctionalInterface
+
+Lambda Expression!
+It is an anonymous function which has no need of function 
+It is used to reduce boiler plate code !
+make java code more concise readable and functional.
+It is used to implement Single Method Interface (SAM).
+
+Syntax -
+(arguments) -> {Expression}
 
 ### Prerequisites
 
