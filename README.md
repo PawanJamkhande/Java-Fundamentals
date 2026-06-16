@@ -425,6 +425,7 @@ HashTable:
 
 Comparable:
 
+
 ### `01_Strings`
 
 String is a class which is used to store text. If both strings are equal they are using same memory.

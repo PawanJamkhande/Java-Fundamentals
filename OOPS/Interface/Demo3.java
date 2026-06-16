@@ -1,13 +1,15 @@
 package OOPS.Interface;
 /*
-It is used to achieve multiple inheritance in java 
+It is used to achieve multiple inheritance in java ( one mother two children)
+in normal class we cannot use abstract keyword and in abstract class we can use asbtract methods as well as normal methods
 Interface is declare using interface key 
 By default all methods are abstract in interface and bydefault the variables are static and final
 We cannot create object of interaface
 At a time we can extend more than one interface
 class to class => extends
 interface to interface => extends
-class to interface => implement*/
+class to interface => implement
+*/
 interface Post{
 	void addPhoto() ;
 }
