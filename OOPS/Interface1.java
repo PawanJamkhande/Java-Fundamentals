@@ -46,7 +46,7 @@ class i4 implements i3 {
 	}
 	
 }
-public class Interface {
+public class Interface1 {
 
 	public static void main(String[] args) {
 		i4 i=new i4();
