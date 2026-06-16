@@ -41,7 +41,22 @@ public class StreamAPI {
         // Intermediate operation : map()
         List<Integer> squaredNumbers = numbers.stream().map(n -> n * n).collect(Collectors.toList());
         System.out.println("Squared Numbers: " + squaredNumbers);
-        
+        // Intermediate operation : sorted()
+        List<Integer> sortedNumbers = numbers.stream().sorted((a, b) -> b.compareTo(a)).collect(Collectors.toList());
+        System.out.println("Sorted Numbers: " + sortedNumbers);
+        // Intermediate operation : distinct()
+        List<Integer> distinctNumbers = numbers.stream().distinct().collect(Collectors.toList());
+        System.out.println("Distinct Numbers: " + distinctNumbers);
+        // Intermediate operation : limit()
+        List<Integer> limitedNumbers = numbers.stream().limit(5).collect(Collectors.toList());
+        System.out.println("Limited Numbers: " + limitedNumbers);
+        // Intermediate operation : skip()
+        List<Integer> skippedNumbers = numbers.stream().skip(5).collect(Collectors.toList());
+        System.out.println("Skipped Numbers: " + skippedNumbers);
+         // Intermediate operation : flatMap()
+        List<List<Integer>> nestedNumbers = Arrays.asList(Arrays.asList(1, 2), Arrays.asList(3, 4), Arrays.asList(5, 6));
+        List<Integer> flatMappedNumbers = nestedNumbers.stream().flatMap(List::stream).collect(Collectors.toList());
+        System.out.println("FlatMapped Numbers: " + flatMappedNumbers);
         
         // Terminal operation : forEach()
         System.out.println("Numbers: ");
@@ -68,6 +83,48 @@ public class StreamAPI {
         // Terminal operation : max()
         Optional<Integer> maxNumber = numbers.stream().max(Integer::compareTo);
         System.out.println("Maximum Number: " + maxNumber.orElse(null));
+
+
+
+
+
+
+//test demo
+        List<Integer>list=Arrays.asList(10,20,30,40);
+		
+		System.out.println(list);
+		
+		List<Integer>dummylist=list.stream().collect(Collectors.toList());
+		System.out.println(dummylist);
+		
+		List<Integer>square=list.stream()
+				.map(x->x*x).collect(Collectors.toList());
+		
+		System.out.println(square);
+		List<String>names=Arrays.asList("Ankita","Anand","Sam","Jhon");
+		
+		System.out.println(names);
+		
+		List<String>updatedNames=names.stream()
+				.filter(x->x.startsWith("A")).collect(Collectors.toList());
+		System.out.println(updatedNames);
+
+		List<String>lower=names.stream().map(x->x.toLowerCase()).collect(Collectors.toList());
+		
+		System.out.println(lower);
+  List<String>upper=names.stream().map(x->x.toUpperCase()).collect(Collectors.toList());
+		
+		System.out.println(upper);
+		
+		List<Integer>l1=Arrays.asList(20,4,3,2,1,0);
+		
+		System.out.println(l1);
+		
+		List<Integer>sortData=l1.stream().sorted()
+				.collect(Collectors.toList());
+		System.out.println(sortData);
+		
+
     }
     
 }
