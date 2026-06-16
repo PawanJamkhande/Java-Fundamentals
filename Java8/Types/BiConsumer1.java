@@ -14,5 +14,11 @@ public class BiConsumer1 {
         bc.accept("Hello", "World"); // Output: Hello, World
         BiConsumer<Integer, Integer> bc1 = (a, b) -> System.out.println("Sum is " + (a + b));
         bc1.accept(5, 10); // Output: Sum is 15
+        //no need to create interface
+        BiConsumer<Integer, Integer> bc3 = (a, b) -> System.out.println("Sum is " + (a + b));
+        bc3.accept(15, 110);
+        BiConsumer<Integer, Integer> bc2 = (a, b) -> System.out.println("Multiplication is " + (a * b));
+        bc2.accept(5, 10);
     }
+
 }
