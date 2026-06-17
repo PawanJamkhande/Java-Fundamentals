@@ -509,6 +509,12 @@ It is used to implement Single Method Interface (SAM).
 Syntax -
 (arguments) -> {Expression}
 
+
+Consumer<T> - takes only one argument
+BiConsumer<T,T> - takes two arguments
+Function<T,R> - takes 1 argument and a types of result
+BiFunction<T,T,R> - takes two argument types and one type of result
+
 ### Prerequisites
 
 You need the following installed on your machine:
