@@ -1,4 +1,7 @@
 package Java8.TypesOfMethodReference;
+
+import java.util.function.Function;
+
 /*
 Reference to static method : It is used to refer to a static method of a class. 
 It is used when the method is static and it is called on the class itself rather than on an instance of the class.
@@ -22,6 +25,12 @@ class Disp{
     }
 }
 
+class demo{
+    public static int square(int a){
+        return a*a;
+    }
+}
+
 public class StaticMethodReference {
     public static void main(String[] args){
         //Using a lambda expression to implement the functional interface
@@ -38,5 +47,8 @@ public class StaticMethodReference {
         //Info is a functional interface and Disp::display is a reference to the static method display of the class Disp
         Info i1=Disp::display;
         System.out.println(i1.msg("Hello, World!"));
+
+        Function<Integer,Integer> f1 = demo::square;
+        System.out.println(f1.apply(5));
     }
 }
