@@ -501,7 +501,7 @@ it is also called as SAM(single abstract method)
 It is denoted as @FunctionalInterface
 
 Lambda Expression!
-It is an anonymous function which has no need of function 
+It is an anonymous function which has no need of function ( no method name is used here )
 It is used to reduce boiler plate code !
 make java code more concise readable and functional.
 It is used to implement Single Method Interface (SAM).

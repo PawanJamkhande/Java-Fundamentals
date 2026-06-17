@@ -1,7 +1,7 @@
 package Java8.Types;
 import java.util.function.Consumer;
 /*
-Tuypes of functional interface
+Types of functional interface
 1. Consumer : It represents an operation that accepts a single input argument and returns no result. only one arguments.
               It is often used for operations that have side effects, such as printing to the console or modifying an object.
               void Accept(T t);

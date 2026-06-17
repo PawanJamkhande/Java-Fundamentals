@@ -1,7 +1,7 @@
 package Java8.Types;
 import java.util.function.Function;
 /*
-5. Function : It represents a function that accepts one argument and produces a result. It is often used for transformations or computations. 
+4. Function : It represents a function that accepts one argument and produces a result. It is often used for transformations or computations. 
               R apply(T t);
               T is the type of the input to the operation.
               R is the type of the result of the operation.
