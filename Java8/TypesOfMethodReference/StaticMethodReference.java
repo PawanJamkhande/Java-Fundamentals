@@ -1,6 +1,6 @@
 package Java8.TypesOfMethodReference;
 
-import java.util.function.Function;
+import java.util.function.*;
 
 /*
 Reference to static method : It is used to refer to a static method of a class. 
@@ -31,6 +31,12 @@ class demo{
     }
 }
 
+class Hello{
+    public static String greet(String m){
+        return "Message is: "+m;
+    }
+}
+
 public class StaticMethodReference {
     public static void main(String[] args){
         //Using a lambda expression to implement the functional interface
@@ -50,5 +56,8 @@ public class StaticMethodReference {
 
         Function<Integer,Integer> f1 = demo::square;
         System.out.println(f1.apply(5));
+
+        Function<String, String> f2 = Hello::greet;
+        System.out.println(f2.apply("Welcome All"));
     }
 }
