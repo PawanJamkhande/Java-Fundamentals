@@ -2,7 +2,7 @@
 OPtional is an container introduced in java 8 used to handle NullPointerException
 instead of returning null, method returns optional object that may contain value or may not contain value.
 
-isPresent() - returns true if values present otherwise false
+ifPresent() - returns true if values present otherwise false
 isEmpty() - returns true if there is no value
 get() - returns value if present otherwise throws NoSuchElementexpection
 orElse(T other) - returns the value if present otherwise returns the default value
@@ -30,5 +30,12 @@ public class Optional1{
 
         String s = o3.orElse("Default Value");
         System.out.println(s);
+
+        Optional <String> email = Optional.ofNullable("abc@gmail.com");
+        email.filter(e->e.contains("@")).ifPresent(e->System.out.println("Valid email: "+e));
+
+        String error = email.orElse("Email id not found");
+        System.out.println(error);
+
     }
 }
