@@ -1,4 +1,6 @@
-package Java8.Types;
+package Java8.TypesOfFunctionalInterface;
+
+
 import java.util.function.BiConsumer;
 /*
 It accept two parameters

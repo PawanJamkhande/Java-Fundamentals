@@ -1,4 +1,6 @@
-package Java8.Types;
+package Java8.TypesOfFunctionalInterface;
+
+
 import java.util.function.Function;
 /*
 4. Function : It represents a function that accepts one argument and produces a result. It is often used for transformations or computations. 

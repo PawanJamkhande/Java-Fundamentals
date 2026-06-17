@@ -1,4 +1,6 @@
-package Java8.Types;
+package Java8.TypesOfFunctionalInterface;
+
+
 import java.util.function.BiFunction;
 /*
 5. BiFunction : It represents a function that accepts two arguments and produces a result. 

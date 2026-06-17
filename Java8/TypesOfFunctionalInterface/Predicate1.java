@@ -1,4 +1,6 @@
-package Java8.Types;
+package Java8.TypesOfFunctionalInterface;
+
+
 import java.util.function.Predicate;
 /*
 3. Predicate : It represents a boolean-valued function of one argument. It is often used for filtering or matching operations. 

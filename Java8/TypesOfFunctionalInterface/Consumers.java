@@ -1,4 +1,6 @@
-package Java8.Types;
+package Java8.TypesOfFunctionalInterface;
+
+
 import java.util.function.Consumer;
 /*
 Types of functional interface
