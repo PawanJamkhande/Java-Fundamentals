@@ -5,6 +5,9 @@ Pattern matching is used to typechecking, typecasting and variable declaration i
 instanceof keyword is used to combine typecheck and typecasting
 if(object instanceof datatype variable_name){
 //code
+
+It allows you to use type patterns directly inside a switch statement.
+Instead of writinhg a multiple if-else condition with instanceof you can write more readable code.
 }
 
 */
