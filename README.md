@@ -423,8 +423,22 @@ HashTable:
 2. It is introduced in java 1.0 only
 3. it is thread safe bcz of synchronization
 
-Comparable:
 
+======================================================================================================================================================================
+JAVASCRIPT:
+
+What is prototype
+- it is an object that provides inherited properties and methods to another objects.
+- ⁠Js prototype is used to implement inheritance and method chaining.
+- ⁠js does not support multiple inheritance
+-
+what is prototype chaining
+- prototype chain is a mechanism which searches for properties and methods who link prototype object, it finds them or reaches null
+- 
+Why prototype is important 
+- to enable inheritance save memory by sharing methods
+- NOTE : javascript inheritance is prototype based, every object has prototype and when property of method is not found in the object itself js looks for in prototype chain.
+======================================================================================================================================================================
 
 ### `01_Strings`
 
