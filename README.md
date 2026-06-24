@@ -426,6 +426,7 @@ HashTable:
 
 ======================================================================================================================================================================
 JAVASCRIPT:
+JavaScript is a dynamic, weakly-typed language that conforms to the ECMAScript standard.  While originally designed for browser-based client-side scripting to manipulate the Document Object Model (DOM), it now supports server-side development through environments like Node.js and can be used for mobile apps and game development.
 
 What is prototype
 - it is an object that provides inherited properties and methods to another objects.
