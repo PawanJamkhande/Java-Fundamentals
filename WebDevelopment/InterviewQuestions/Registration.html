@@ -34,7 +34,7 @@
       </div>
 <div class="mb-3">
 
-    <button type="submit" class="btn btn-primary" onclick="register()">Submit</button>
+    <button type="button" class="btn btn-primary" onclick="register()">Submit</button>
 </div>
 <div class="mb-3">
     <p id="errormsg" style="color:red;font-size: xx-large;"></p>
@@ -70,7 +70,7 @@
      if(password==""){
         throw "password Required"
      }
-     if(passowrd.length<8){
+     if(password.length<8){
         throw "Password Must at least 8 characters"
      }
      if(password!=confirmpassword){
@@ -80,7 +80,7 @@
 
     }catch(error){
         console.log(error)
-        document.getElementById("errormsg").innerHTML=error;
+        document.getElementById("errormsg").innerText=error;
     }
     
 
