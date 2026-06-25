@@ -28,3 +28,14 @@ console.log(emptyValue);
 console.log(num);
 console.log(str);
 console.log(uninitializedvar);
+
+//ENUM usecase 
+enum colors{
+    black,
+    blue,
+    white,
+    green
+}
+
+let c:colors=colors.white;
+console.log(c)

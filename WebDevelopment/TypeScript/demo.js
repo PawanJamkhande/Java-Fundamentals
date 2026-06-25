@@ -24,3 +24,13 @@ console.log(emptyValue);
 console.log(num);
 console.log(str);
 console.log(uninitializedvar);
+//ENUM usecase 
+var colors;
+(function (colors) {
+    colors[colors["black"] = 0] = "black";
+    colors[colors["blue"] = 1] = "blue";
+    colors[colors["white"] = 2] = "white";
+    colors[colors["green"] = 3] = "green";
+})(colors || (colors = {}));
+let c = colors.white;
+console.log(c);
