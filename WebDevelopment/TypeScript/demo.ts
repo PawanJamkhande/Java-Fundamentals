@@ -39,3 +39,21 @@ enum colors{
 
 let c:colors=colors.white;
 console.log(c)
+
+// normal array declaration
+let arr:number[]=[1,2,3,4,5,6];
+console.log(arr)
+
+let person:any[]=["sam",23,"Taloja",410208,"Acc balance: ",80.88]
+console.log(person)
+
+//Generic type declaration
+let emp:Array<String>=["sam","john","snow"];
+console.log(emp)
+
+//add array element 
+emp.push("Raman")
+console.log(emp)
+
+emp.pop();
+console.log(emp)
