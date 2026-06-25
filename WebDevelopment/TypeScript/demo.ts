@@ -93,11 +93,11 @@ function greet(name:string,age:number,weight?:number):void{
 
 greet("sam",24);
 
-// const num= (x:number):
-// number =>{
-//     return x*x;
-// }
-// console.log(10)
+const num1= (x:number):
+number =>{
+    return x*x;
+}
+console.log(num1(10))
 
 const info=(name:string):
 string =>{
