@@ -6,3 +6,4 @@ export function info(){
     console.log("Stud Name:"+sname+" Course Name:"+course)
 
 }
+
