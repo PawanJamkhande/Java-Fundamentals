@@ -112,3 +112,15 @@ number =>{
     return i;
 }
 console.log(result(100));
+
+//function overloading 
+function show(value:number):void;
+    
+function show(value:string):void;
+
+function show(value:any):void{
+    console.log("Value is:"+value)
+}
+show(200);
+show("Ajay Patil");
+show(340);
