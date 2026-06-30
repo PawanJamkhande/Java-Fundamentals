@@ -485,6 +485,7 @@ there are four types of one way binding
 
 -Interpolation binding : syntax: {{variableName}}
 it is used to display data form component to the HTML (TypeScript -> HTML)
+example - name:string; this is correct but when we use name!:string this ignores the 
 
 -Property Binding : Syntax: [property]="value"
 It is used to set the value of HTML elements property from the components.
