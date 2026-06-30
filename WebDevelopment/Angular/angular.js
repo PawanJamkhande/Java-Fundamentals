@@ -82,4 +82,75 @@ What is Component?
 How to create Component?
 - ng g c componentName
 - ng generate component componentName
+
+Forms:-
+Template forms:-
+It is the basic form
+Template driven forms are form where most of the logic is written in the HTML template.
+Angular automatically create the form object.
+template driver form use forms module, ng model and ng form.
+
+Reactive Forms:-
+Reactive forms are forms where all form controls created inside typescript component.
+1) ReactiveFormsModule - Enable reactive form
+2) FormGroup - Represent complete form
+3) FormControl - Represent each input field
+4) Validators.required() - Make field mandatory
+5) formBuilder - create reactive form
+
+Form Builder workflow:-
+FormBuilder-> Creates FormGroup -> Adds FormControls -> Applies Validators -> connect with html using formGroup and formControlName.
+
+What is Dependency Injection?
+-: Dependency Injection is the design pattern in angular where angular automatically create and inject the required dependency.
+such as services into component.
+It improve the code reusability, reduce coupling, make application easier to maintain and test.
+
+Services and Angular:-
+It is a typescript class that contains business logic data or common functionalities that can be shared across multiple components.
+Instead of writing the same code in two different components we write it once in a service and reuse it.
+
+Why we use Services?
+1) Reuse code across multiple components.
+2) Share data between components.
+3) Call RestAPI's.
+4) Make application easy to test and maintain.
+
+What is @Injectable?
+It is a decorator that make a class available for dependency.
+
+What is an Observable?
+It is an object provided by RXJS (reactive extension for java script) that emits data over time.
+It is used to handle Asynchronous operation(multithreading) such as HTTP requests, user events, and real time updates.
+
+Why we use Observable?
+1) Handle Asynchronous data.
+2) Make HTTP API calls.
+3) Listen user event like click, inputs.
+4) Work with timers and intervals.
+5) Receive real time update.
+example - youtuber new notification after subscribe.
+subscribe()- Listen observable and execute code when data is emited.
+
+WHy do we use Subscribe?
+- To receive data from API.
+- To handle asynchronous operations
+- To process resources fro observable
+- To handles success eorro and completion event.
+
+syntax- 
+observable subscribe((data)=>{
+    //handle data
+    })
+
+Routing in angular means navigating between diff component in single application without refreshing the page 
+We use routing to -
+1) Navigate between different component
+2) Protect routes using guards.
+
+What is the purpose of <router-outlet> ?
+->It is an angular directive that act as a placeholder where the routed component is displayed based on the current URL.
+When the router changes, angular loads the curresponding component and render inside the router outlet without refreshing the entire page.
+
+
 */
