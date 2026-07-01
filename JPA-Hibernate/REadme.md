@@ -2,7 +2,10 @@
 
 JPA:
 JPA is nothing but Java Persistence API which is used to provide the specification for Object Relationship Mapping (ORM) in Java.
-JPA defines entity mapping using @Enitity,@Table
+JPA defines entity mapping using 
+@Enitity : 
+@Table : to assign the table name not to create the table 
+
 JPA defines the relationships using @OneToOne,@OneToMany, @ManyToMany
 JPA defines the persistence operations like persist, merge , remove.
 
@@ -36,3 +39,6 @@ Hibernate Lifecycle:
 2) Persistent : object save using session.save()
 3) Detached : session closed
 4) Removed : deleted from database
+
+org.apache.maven.arc package to choose on eclipse
+we use pom file in maven to build the project update the project and manage the project the pom is created automatically
