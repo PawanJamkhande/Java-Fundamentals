@@ -104,7 +104,7 @@ FormBuilder-> Creates FormGroup -> Adds FormControls -> Applies Validators -> co
 What is Dependency Injection?
 -: Dependency Injection is the design pattern in angular where angular automatically create and inject the required dependency.
 such as services into component.
-It improve the code reusability, reduce coupling, make application easier to maintain and test.
+It improve the code reusability, reduce coupling(Loose Coupling), make application easier to maintain and test.
 
 Services and Angular:-
 It is a typescript class that contains business logic data or common functionalities that can be shared across multiple components.

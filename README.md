@@ -518,7 +518,7 @@ ngModel is an angular directive used for 2-way data binding between form control
 
 
 
-What is Component?
+What is @Component?
 - It is a basic building block of angular application, It controls the specific part of the UI. It provides the metadata(information).
 - Component is a TypeScript class, It is decorated with @Component which control the part of UI's by combining HTML, CSS and TypeScript.
 - We are using component to divide application into the smaller reusable parts.
