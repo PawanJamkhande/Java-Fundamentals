@@ -1,7 +1,8 @@
 /*
 OPtional is an container introduced in java 8 used to handle NullPointerException
 instead of returning null, method returns optional object that may contain value or may not contain value.
-
+when we need to use for perticular we use optional object to check if value is present or not.
+To use for multiple or entire collection we use List, Set, Map etc.
 ifPresent() - returns true if values present otherwise false
 isEmpty() - returns true if there is no value
 get() - returns value if present otherwise throws NoSuchElementexpection

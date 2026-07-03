@@ -26,9 +26,9 @@ Java Application
 |
 Configuration : It is used to read hibernate.cfg.xml, It stores database configuration.
 |
-SessionFactory : Create session objects, One session factory per database.
+SessionFactory : Create session objects, One session factory per database.configures the database(connection).
 |
-Session : Used for CRUD operation, lightweight object.
+Session : Used for CRUD operation, lightweight object.used for query.
 |
 Transaction : Ensures data consistency, commit and rollback.
 |

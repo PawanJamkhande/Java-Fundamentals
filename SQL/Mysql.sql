@@ -80,6 +80,21 @@ select sname, aname,course_name, status from student inner join assessment on st
    select sname,c_name from student right join course on student.c_id=course.c_id union select sname,c_name from student left join course on student.c_id=course.c_id;
 
 
- 
-    
+ ---------------------------------------------------------------------------------------------------------------
+    CREATE TABLE food( 
+id INT PRIMARY KEY AUTO_INCREMENT, 
+name VARCHAR(50), 
+price DOUBLE 
+);
+
+select * from food;
+
+CREATE TABLE sales( 
+sale_id INT PRIMARY KEY AUTO_INCREMENT, 
+bill_amount DOUBLE, 
+sale_date DATE 
+); 
+
+
+select * from sales;
 
