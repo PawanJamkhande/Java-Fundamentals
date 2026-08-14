@@ -147,7 +147,7 @@ SCANNER CLASS:
 	- nextLine() - to read whole string content.
 =======================================================================================================================================================================
 What is java, and why we are using java language.
-explain the java components.
+explain the java components. -> JDK, JRE, JVM
 What is byte code
 Why main method is static. -JVM can call main method without creating object.
 What is variable in java and types of variables.
