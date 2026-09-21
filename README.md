@@ -340,12 +340,12 @@ Object
 	   |- Out of memory Error
 	
 
-Throw	Throws
-1. Java throw keyword is used to explicitly throw an exception	1. Java throws keyword is used to declare an exception
-2. Checked exception cannot be propagated using throw only	2. Checked exception can be propagated with throws.
-3. Throw is followed by an instance	3.Throws is followed by class
-4. Throw is used within a method	4. Throws is used with method signature
-5. You cannot throw multiple exception	5. You can declare multiple exceptions
+Throw															Throws
+1. Java throw keyword is used to explicitly throw an exception	1.Java throws keyword is used to declare an exception
+2. Checked exception cannot be propagated using throw only		2.Checked exception can be propagated with throws.
+3. Throw is followed by an instance								3.Throws is followed by class
+4. Throw is used within a method								4.Throws is used with method signature
+5. You cannot throw multiple exception							5. You can declare multiple exceptions
 
 
 

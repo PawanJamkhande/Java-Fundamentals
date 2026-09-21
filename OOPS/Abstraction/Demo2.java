@@ -6,7 +6,7 @@ that hidden working is nothing but abstraction
 To achieve abstraction we are using abstract class and interference 
 Abstract class - it acts as a base class(parent) if we declare class a abstract we cannot create a instance of that class 
 Abstract class contains abstract method as well as non abstract methods 
-To declare method as a absctract class should be abstract 
+To declare method as a absctract, class should be abstract 
 At a time you can extend only one abstract class
 Abstract class can contains static data and abstract method as well as non abstract method 
 We can declare final in abstract class and to call it we need to call by object 

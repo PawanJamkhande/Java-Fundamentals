@@ -1,8 +1,8 @@
 package OOPS;
 
-//encapsulation is used for sequrity purpose and to hide the data from outside world and only provide access through getter and setter method
+//encapsulation is used for security purpose and to hide the data from outside world and only provide access through getter and setter method
 //In encapsulation we make the data members private and provide public getter and setter methods to access and update the value of private data members
-//give me the code for encapsulation in java to undersantd the concept of encapsulation in java with proper example
+//give me the code for encapsulation in java to understand the concept of encapsulation in java with proper example
 public class Encapsulation {
     private String name;
     private int age;

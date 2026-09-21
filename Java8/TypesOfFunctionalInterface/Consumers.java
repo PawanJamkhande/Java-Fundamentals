@@ -16,5 +16,6 @@ public class Consumers {
     public static void main(String[] args){
         Consumer <String> c = (msg) -> System.out.println(msg);
         c.accept("Hello");
+        
     }
 }
