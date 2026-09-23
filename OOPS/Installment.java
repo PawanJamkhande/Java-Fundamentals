@@ -1,6 +1,6 @@
 package OOPS;
 import java.util.Scanner;
-//distribute all the remaining amount to installment amount equally
+
 public class Installment {
     public static void main(String[]args){
         Installment obj = new Installment();
@@ -18,19 +18,20 @@ public class Installment {
     }
     public void calculateInstallment(){
         int installmentAmount = amount / months;
-        int installmentNo=1;
+        int installmentNo;
+        int remainder = amount % months;
         int balance = amount;
 
-        while(balance > 0){
-            if(balance%months!=0 && installmentNo== months){
-                installmentAmount = balance;
-            }
-            System.out.println("Installment " + installmentNo + ": " + installmentAmount + " Remainin Amount :"+ balance);
-            balance -= installmentAmount;
-            installmentNo++;
-            
-    }
 
-}
+
+    for ( installmentNo = 1; installmentNo <= months; installmentNo++) {
+            int currentInstallment = installmentAmount;
+            if (remainder > 0) {
+                currentInstallment++;
+                remainder--;
+            }
+            System.out.println("Installment " + installmentNo + ": " + currentInstallment+ " Balance: "+balance);
+        }
+    }
 }
 
